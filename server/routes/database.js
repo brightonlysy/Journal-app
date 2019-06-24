@@ -1,0 +1,6 @@
+journalEntry = [
+    {
+        title: "",
+        artical: ""
+    }
+]
