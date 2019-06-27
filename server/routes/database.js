@@ -1,6 +1,0 @@
-journalEntry = [
-    {
-        title: "",
-        artical: ""
-    }
-]

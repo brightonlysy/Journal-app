@@ -1,0 +1,61 @@
+.navbar-container {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    background: #4f4cb0;
+    grid-template-rows: 10vh;
+    grid-template-columns: repeat(8,1fr);
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+    /* border: 1px solid lightcoral; */
+}
+
+.navbar-container a {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #e9eff9;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.5pt;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar-container a:active {
+    background: rgba(255,255, 255, .3)
+}
+
+#houseLogo{
+    width: 24px;
+}
+
+#about-link {
+    grid-column: 7/8;
+}
+
+/* @media (min-width: 480px) and (max-width: 767px) {
+    .navbar-container {
+        background: lightslategray;
+    }
+} */
+
+/* @media (min-width: 768px) and (max-width: 1023px) {
+    .navbar-container {
+        background: lightcoral;
+    }
+} */
+
+/* @media (min-width: 1024px) and (max-width: 1280px) {
+    .navbar-container {
+        background: lightblue;
+    }
+} */
+
+/* @media (min-width: 1281px) {
+    .navbar-container {
+        background: lightseagreen;
+    }
+} */
